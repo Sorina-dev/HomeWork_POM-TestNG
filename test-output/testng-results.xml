@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28343" started-at="2020-09-02T20:38:24 EEST" finished-at="2020-09-02T20:38:52 EEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28343" started-at="2020-09-02T20:38:24 EEST" finished-at="2020-09-02T20:38:52 EEST">
+      <class name="com.Test.Testing">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Test.Testing@3dfc5fb8]" name="setUp" is-config="true" duration-ms="8952" started-at="2020-09-02T20:38:24 EEST" finished-at="2020-09-02T20:38:33 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="PwdEmpty()[pri:0, instance:com.Test.Testing@3dfc5fb8]" name="PwdEmpty" duration-ms="4560" started-at="2020-09-02T20:38:33 EEST" finished-at="2020-09-02T20:38:37 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PwdEmpty -->
+        <test-method status="PASS" signature="UserNameEmpty()[pri:0, instance:com.Test.Testing@3dfc5fb8]" name="UserNameEmpty" duration-ms="8372" started-at="2020-09-02T20:38:37 EEST" finished-at="2020-09-02T20:38:46 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserNameEmpty -->
+        <test-method status="PASS" signature="WrongPwd()[pri:0, instance:com.Test.Testing@3dfc5fb8]" name="WrongPwd" duration-ms="5557" started-at="2020-09-02T20:38:46 EEST" finished-at="2020-09-02T20:38:51 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongPwd -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.Test.Testing@3dfc5fb8]" name="quitBrowser" is-config="true" duration-ms="851" started-at="2020-09-02T20:38:51 EEST" finished-at="2020-09-02T20:38:52 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.Test.Testing -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
