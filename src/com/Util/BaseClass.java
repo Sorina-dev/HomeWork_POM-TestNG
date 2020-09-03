@@ -46,20 +46,17 @@ public static WebDriver setUp() {
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	driver.get("http://166.62.36.207/humanresources/symfony/web/index");
-	WebDriverWait wait =WebDriverWait(20,driver);
+	
 	
 	return driver;
 }
 
-private static WebDriverWait WebDriverWait(int i, WebDriver driver2) {
-	// TODO Auto-generated method stub
-	return null;
-}
+
 
 /*
  * @method   quits the browser
  */
-@AfterMethod
+
 public static void quitBrowser() {
 	if(driver != null) {
 	driver.quit();
